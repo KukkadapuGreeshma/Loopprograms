@@ -1,0 +1,11 @@
+def most_frequent(string):
+    dict={}
+    for i in string:
+        if i not in dict:
+            dict[i]=1
+        else:
+            dict[i]+=1
+    return dict
+a=most_frequent(stri)
+for k,l in a.items():
+    print(k,"=",str(l).zfill(2))
